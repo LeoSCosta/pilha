@@ -10,7 +10,23 @@ public class Main {
         minhaPilha.push(new No(5));
         minhaPilha.push(new No(6));
         minhaPilha.push(new No(7));
-        
         System.out.println(minhaPilha);
+
+        System.out.println(minhaPilha.pop());
+        System.out.println(minhaPilha);
+
+        System.out.println(minhaPilha.pop());
+        minhaPilha.push(new No(8));
+        System.out.println(minhaPilha);
+
+        System.out.println(minhaPilha.pop());
+        System.out.println(minhaPilha.pop());
+        System.out.println(minhaPilha.pop());
+        System.out.println(minhaPilha.pop());
+        System.out.println(minhaPilha.pop());
+        System.out.println(minhaPilha.pop());
+        System.out.println(minhaPilha.pop());
+        System.out.println(minhaPilha);
+
     }
 }
